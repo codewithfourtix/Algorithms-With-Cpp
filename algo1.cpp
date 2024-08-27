@@ -1,3 +1,4 @@
+// Reversing the array
 #include <iostream>
 using namespace std;
 int reverseFunc(int arr[], int sizeOfArray)
