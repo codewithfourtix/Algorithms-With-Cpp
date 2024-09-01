@@ -1,4 +1,4 @@
-// Simple interest
+// Simple interest Calculator
 #include <iostream>
 using namespace std;
 
