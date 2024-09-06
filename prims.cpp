@@ -47,7 +47,6 @@ void primMST(int graph[V][V])
     }
   }
 
-  // Print the MST
   cout << "Edge \tWeight\n";
   for (int i = 1; i < V; i++)
   {
