@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int V = 5; // Number of vertices in the graph
+const int V = 5;
 
 int findMinVertex(vector<int> &key, vector<bool> &mstSet)
 {
