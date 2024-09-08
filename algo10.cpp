@@ -1,21 +1,21 @@
 #include <iostream>
 #include <vector>
-#include <limits.h> // For INT_MIN
+#include <limits.h> // For INT MIN
 
 using namespace std;
 
 int findMax(const vector<int> &nums)
 {
   if (nums.empty())
-    return INT_MIN; // Return the smallest integer if the array is empty
+    return INT_MIN;
 
-  int maxVal = nums[0]; // Initialize maxVal with the first element
+  int maxVal = nums[0];
 
   for (int i = 1; i < nums.size(); i++)
   {
     if (nums[i] > maxVal)
     {
-      maxVal = nums[i]; // Update maxVal if a larger value is found
+      maxVal = nums[i];
     }
   }
 
