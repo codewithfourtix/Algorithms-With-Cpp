@@ -1,3 +1,4 @@
+// to determine whether a number is even or odd without using the modulus operator is by using integer division.
 #include <iostream>
 using namespace std;
 
