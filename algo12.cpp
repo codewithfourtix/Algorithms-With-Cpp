@@ -1,3 +1,4 @@
+// calculate the square of a number without using the * operator by using a loop to add the number to itself repeatedly
 #include <iostream>
 using namespace std;
 
