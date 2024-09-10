@@ -8,15 +8,13 @@ int square(int num)
     return 0;
 
   int result = 0;
-  int absNum = num > 0 ? num : -num; // Handle negative numbers
+  int absNum = num > 0 ? num : -num;
 
-  // Repeatedly add 'num' to result 'num' times
   for (int i = 0; i < absNum; i++)
   {
     result += absNum;
   }
 
-  // If the original number was negative, return the result as positive
   return num < 0 ? -result : result;
 }
 
