@@ -1,5 +1,5 @@
 // Problem: Calculate the sum of only the prime digits (2, 3, 5, 7) in a given positive integer.
-// Concepts: Loops, Conditionals.
+// Concepts: Loops, Conditiona
 #include <iostream>
 using namespace std;
 
